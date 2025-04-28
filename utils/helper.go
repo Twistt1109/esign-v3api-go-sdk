@@ -137,3 +137,7 @@ func BytetoJson(initResult []byte) map[string]interface{} {
 	}
 	return jsonMap
 }
+
+func NewIntPtr(v int) *int {
+	return &v
+}
